@@ -1,0 +1,4 @@
+num_list = input("Enter numbers separated by space: ").split()
+num_list = [int(num) for num in num_list]
+avg = sum(num_list) / len(num_list)
+print("Average is", avg)
